@@ -1,0 +1,21 @@
+===============
+SET UP
+===============
+to start a new project:
+dotnet new console --framework net7.0
+
+run a project with "dotnet run" which runs the Program.cs in that directory
+or with coderunner (already set up)
+
+Console.Write() -> [console.log()]
+
+=================
+VARIABLES
+=================
+string aFriend = "Bill" -> [instead of const or let, use the literal type of the variable]
+
+Console.WriteLine($"Hello {aFriend}"); -> [awesome, dont need backticks for template literals. just $""]
+
+=================
+STRINGS
+=================
