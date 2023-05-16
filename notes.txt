@@ -8,3 +8,16 @@ run a project with "dotnet run" which runs the Program.cs in that directory
 or with coderunner (already set up)
 
 Console.Write() -> [console.log()]
+
+====================================================STRINGS
+\t is tab -- \n is linebreak
+"Hello \"World\"!" -> \ escapes in a string
+
+Console.WriteLine(@"    c:\source\repos    
+        (this is where your code goes)"); -> @"" is a verbatim string literal that keeps all whitespace. it also keeps in \ as literals
+
+\u1111 -> \u + four character code is a unicode character
+
+string message = $"{greeting} {firstName}!"; -> kino string interpolation (just like backtics in JS)
+
+Can combine them into @$"" for both interpolation and verbatim
